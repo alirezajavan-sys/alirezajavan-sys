@@ -22,10 +22,11 @@ Three linked projects follow one drug class across levels of evidence.
 | [**cardiometabolic-trials-landscape**](https://github.com/alirezajavan-sys/cardiometabolic-trials-landscape) | **Trials:** 826 phase 3 SGLT2 and GLP-1 trials from ClinicalTrials.gov. Charts the shift from glucose lowering to heart failure/CKD (SGLT2) and obesity (GLP-1) | Python · ClinicalTrials.gov API v2 |
 | [**sglt2-inhibitor-meta-analysis**](https://github.com/alirezajavan-sys/sglt2-inhibitor-meta-analysis) | **Evidence:** random-effects meta-analysis of 13 outcome trials (90,413 patients). Pooled HR 0.78 for CV death or HF hospitalisation, consistent across diabetes, CKD and HF | R · metafor |
 
-#### Clinical prediction and prognosis
+#### Clinical evidence, prediction and prognosis
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**af-anticoagulation-evidence**](https://github.com/alirezajavan-sys/af-anticoagulation-evidence) | Meta-analysis of the 4 pivotal DOAC-vs-warfarin trials (58,541 patients) that exactly reproduces the published result, plus tested CHA₂DS₂-VASc, CHA₂DS₂-VA (ESC 2024) and HAS-BLED functions | R · metafor · testthat |
 | [**heart-failure-survival**](https://github.com/alirezajavan-sys/heart-failure-survival) | Cox survival analysis of advanced heart failure with optimism-corrected C-index. Exposes a common outcome-leakage error in public analyses of this dataset | Python · lifelines |
 | [**diabetes-risk-prediction**](https://github.com/alirezajavan-sys/diabetes-risk-prediction) | Type 2 diabetes risk model judged on discrimination, **calibration and net benefit**. Shows that a transparent logistic model matches ML on AUROC and is better calibrated | Python · scikit-learn |
 | [**pbc-survival-analysis**](https://github.com/alirezajavan-sys/pbc-survival-analysis) | Survival analysis of the Mayo Clinic PBC trial: treatment effect, competing risks (death vs transplant), and re-derivation and validation of the Mayo risk score | R · survival · ggplot2 |
@@ -35,6 +36,7 @@ Three linked projects follow one drug class across levels of evidence.
 | Project | What it does | Stack |
 |---|---|---|
 | [**cardiovascular-in-silico-platform**](https://github.com/alirezajavan-sys/cardiovascular-in-silico-platform) | Reference implementation of an integrated drug-discovery platform: multi-target virtual screening, GNN hERG-cardiotoxicity prediction, dual-target generative design, network pharmacology and MIMIC-IV clinical cross-validation (*Scientific Reports*, under revision) | Python · RDKit · PyTorch Geometric · AutoDock Vina · GROMACS |
+| [**kidney-risk-calculator**](https://alirezajavan-sys.github.io/kidney-risk-calculator/) | **Live web app:** eGFR, KDIGO heat map and kidney failure risk in the browser, with no data leaving the device. Checked against the Python package on 600 reference cases | JavaScript · GitHub Pages |
 | [**ckd-toolkit**](https://github.com/alirezajavan-sys/ckd-toolkit) | Tested, dependency-free Python package: race-free CKD-EPI 2021 eGFR, KDIGO staging and the Kidney Failure Risk Equation, with a CLI | Python · pytest · GitHub Actions |
 
 ### 🛠️ Tools I work with
